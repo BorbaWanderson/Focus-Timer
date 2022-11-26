@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  font-family: "Robot", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 19.2rem;
+  margin-top: 25%;
+}
+
+.controls {
+  display: flex;
+  gap: 4rem;
+  margin-top: 4.8rem;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
+span {
+  font-size: 12.6rem;
+  line-height: 14.8rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #323238;
+}
+
+button {
+  background: transparent;
+  border-radius: 2.4rem;
+  border: none;
+  cursor: pointer;
+}
